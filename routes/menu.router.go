@@ -1,3 +1,5 @@
 package routes
 
-func MenuRoutes() {}
+import "github.com/gin-gonic/gin"
+
+func MenuRoutes(router *gin.Engine) {}

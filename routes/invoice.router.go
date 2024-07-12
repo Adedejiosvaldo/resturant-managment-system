@@ -1,3 +1,5 @@
 package routes
 
-func InvoiceRoutes() {}
+import "github.com/gin-gonic/gin"
+
+func InvoiceRoutes(router *gin.Engine) {}

@@ -1,3 +1,5 @@
 package routes
 
-func NoteRoute() {}
+import "github.com/gin-gonic/gin"
+
+func NoteRoute(router *gin.Engine) {}
