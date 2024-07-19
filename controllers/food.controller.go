@@ -1,17 +1,27 @@
 package controllers
 
-func GetFoods() {
+import (
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+)
+
+func GetFoods(ctx *gin.Context) {
+	ctx.JSON(http.StatusOK, gin.H{"data": "Hi"})
+}
+func GetAFood(ctx *gin.Context) {
+	ctx.JSON(http.StatusOK, gin.H{"data": "Hi"})
 
 }
-func GetAFood() {
+func CreateAFood(ctx *gin.Context) {
+	ctx.JSON(http.StatusOK, gin.H{"data": "Hi"})
 
 }
-func CreateAFood() {
+func UpdateAMeal(ctx *gin.Context) {
+	ctx.JSON(http.StatusOK, gin.H{"data": "Hi"})
 
 }
-func UpdateAMeal() {
-
-}
-func DeleteAMeal() {
+func DeleteAMeal(ctx *gin.Context) {
+	ctx.JSON(http.StatusOK, gin.H{"data": "Hi"})
 
 }
